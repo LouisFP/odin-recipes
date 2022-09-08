@@ -3,16 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+         .welcome {
+          font-size: 20px;
+          font-family: 'Courier New', Courier, monospace;
+      }
+      .welcome.intro {
+        color: pink;
+        font-weight: 600;
+      }
+      .welcome#banner {
+        font-size: 30px;
+        background-color: hsl(260,60%,30%);
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <p>Welcome to my website!</p>
-    <p>Here you will find a collection of recipes which I have cooked many times and now feel confident in sharing to the world.
+    <h1 class="title">Odin Recipes</h1>
+    <p class="welcome">Welcome to my website!</p>
+    <p class="welcome intro">Here you will find a collection of recipes which I have cooked many times and now feel confident in sharing to the world.
         I hope you get as much pleasure out of making and eating these amazing dishes as I have!
     </p>
-    <h3>Recipes</h3>
+    <h3 class="welcome" id="banner">Recipes</h3>
     <ul>
-    <li><a href="./recipes/lasagna.html">Vegan lasagna</a></li>
+    <li style="background-color: aquamarine; font-size: 17px; color: hsla(60,30%,100%,0.6)"><a href="./recipes/lasagna.html">Vegan lasagna</a></li>
     <li><a href="./recipes/lential_dahl.html">Lential Dahl</li>
     <li><a href="./recipes/vegetable_chilli.html">Vegetable Chilli</a></li>
     </ul>
